@@ -1,0 +1,32 @@
+{
+	"name": "browserify-userscript-header",
+	"version": "0.1.0",
+	"description": "Browserify plugin for adding userscript metadata header to top of bundle file",
+	"keywords": [
+			"browserify-plugin",
+			"browserify",
+			"plugin",
+			"userscript",
+			"header",
+			"comment",
+			"metadata",
+			"greasemonkey",
+			"tampermonkey"
+	],
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/damoclark/browserify-userscript-header.git"
+	},
+	"author": {
+		"name": "Damien Clark",
+		"email": "damo.clarky@gmail.com",
+		"url": "https://damos.world"
+	},
+	"license": "GPL-3.0+",
+	"homepage": "https://github.com/damoclark/browserify-userscript-header",
+	"bugs": "https://github.com/damoclark/browserify-userscript-header/issues",
+	"dependencies": {
+		"through2": "^1.1.1"
+	}
+}
