@@ -1,18 +1,13 @@
 
 # browserify-userscript-header
-=================
+
+[![NPM](https://nodei.co/npm/browserify-userscript-header.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/browserify-userscript-header/)
 
 [Browserify](http://browserify.org/) plugin for prepending a file containing a
 static [userscript](https://openuserjs.org/about/Userscript-Beginners-HOWTO)
 metadata block to the output bundle.
 
-<p/>
-<img src="https://nodei.co/npm/browserify-userscript-header.png?downloads=true&stars=true" alt=""/>
-
-<p/>
-<img src="https://david-dm.org/damoclark/browserify-userscript-header.svg" alt=""/>
-
-# Description
+## Description
 
 If you use npm and browserify to build and bundle your userscripts, then
 [browserify-userscript-header](https://github.com/damoclark/browserify-userscript-header)
@@ -26,20 +21,20 @@ bundling of
 [userscripts](https://openuserjs.org/about/Userscript-Beginners-HOWTO).
 
 
-# Installation
+## Installation
 
 ```bash
 npm install browserify browserify-userscript-header --save-dev
 ```
 
-# Usage
+## Usage
 
 ```bash
 browserify -p [ browserify-userscript-header --file userscript.meta.js ] \
              -o userscript.user.js index.js
 ```
 
-# Licence
+## Licence
 -------
 
 browserify-userscript-header -- Browserify Plugin for Adding a Headline Comment
